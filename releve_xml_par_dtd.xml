@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE releve SYSTEM "releve.dtd">
+<releve RIB="12345678901234567890123456">
+    <dateReleve>2025-02-01</dateReleve>
+    <solde>2500</solde>
+    <operations dateDebut="2025-01-01" dateFin="2025-01-31">
+        <operation date="2025-01-01" montant="5000" description="Virement salaire" type="CREDIT"/>
+        <operation date="2025-01-05" montant="2000" description="Paiement facture électricité" type="DEBIT"/>
+        <operation date="2025-01-10" montant="1500" description="Retrait au DAB" type="DEBIT"/>
+        <operation date="2025-01-15" montant="3000" description="Virement entreprise" type="CREDIT"/>
+        <operation date="2025-01-20" montant="800" description="Paiement abonnement streaming" type="DEBIT"/>
+        <operation date="2025-01-25" montant="700" description="Achat en ligne" type="DEBIT"/>
+        <operation date="2025-01-28" montant="400" description="Remboursement assurance" type="CREDIT"/>
+    </operations>
+</releve>
