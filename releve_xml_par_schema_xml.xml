@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<releve xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="releve.xsd"
+    RIB="12345678901234567890123456">
+    <dateReleve>2025-01-31</dateReleve>
+    <solde>2500.50</solde>
+    <operations dateDebut="2025-01-01" dateFin="2025-01-31">
+        <operation date="2025-01-05" montant="1000.00" description="Virement salaire" type="CREDIT"/>
+        <operation date="2025-01-10" montant="200.50" description="Paiement restaurant" type="DEBIT"/>
+        <operation date="2025-01-15" montant="300.00" description="Retrait DAB" type="DEBIT"/>
+        <operation date="2025-01-25" montant="500.00" description="Virement entreprise" type="CREDIT"/>
+    </operations>
+</releve>
