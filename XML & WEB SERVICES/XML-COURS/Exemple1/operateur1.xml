@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<operateur xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="operateur.xsd">
+    <client code="hdjjdk" nom="ikrame">
+        <abonnement num="444" dateAb="2012-01-12">
+            <facture num="455" dateFact="2025-05-08" montant="52"/>
+        </abonnement>
+    </client>
+</operateur>

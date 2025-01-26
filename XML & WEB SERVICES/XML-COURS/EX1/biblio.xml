@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblio SYSTEM "biblio.dtd">
+<?xml-stylesheet type="text/xsl" href="biblio.xsl"?>
+<biblio>
+    <etudiant code="E1" nom="EL HAITI" prenom="Ikrame" age="22">
+        <livre id="L1" titre="Java" dateEmprut="2024-12-25" rendu="OUI"/>
+        <livre id="L2" titre="XML" dateEmprut="2024-5-5" rendu="NON"/>
+    </etudiant>
+    <etudiant code="E2" nom="EL HAITI" prenom="Omar">
+        <livre id="L1" titre="Java" dateEmprut="2024-12-27" rendu="OUI"/>
+    </etudiant>
+</biblio>

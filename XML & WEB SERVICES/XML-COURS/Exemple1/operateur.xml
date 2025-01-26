@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE operateur SYSTEM "operateur.dtd">
+<?xml-stylesheet type="text/xsl" href="operateur.xsl"?>
+<operateur>
+    <client code="C001" nom="Jean Dupont">
+        <abonnement numero="A100" type="FIXE" dateAb="2025-01-01">
+            <facture num="F001" dateFact="2025-01-05" montant="120.50" reglee="Oui"/>
+            <facture num="F002" dateFact="2025-01-10" montant="80.75" reglee="Non"/>
+        </abonnement>
+        <abonnement numero="A101" type="GSM" dateAb="2025-01-15">
+            <facture num="F003" dateFact="2025-01-20" montant="50.00" reglee="Non"/>
+        </abonnement>
+    </client>
+    <client code="C002" nom="Marie Durand">
+        <abonnement numero="A102" type="FO" dateAb="2025-01-05">
+            <facture num="F004" dateFact="2025-01-10" montant="200.00" reglee="Oui"/>
+        </abonnement>
+    </client>
+</operateur>

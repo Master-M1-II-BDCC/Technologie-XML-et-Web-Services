@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- pour les declarer les elements -->
+<!ELEMENT biblio (etudiant+) > <!-- + (1 ou plusieurs) / * (0 ou plusieurs) / ? (0 ou 1) / rien ( 1 et 1 seul )-->
+<!ELEMENT etudiant (livre+) >
+<!ELEMENT livre EMPTY > <!-- EMPTY ne contient rien / noeud qui contient pas d autres fils -->
+<!-- Declarer les attru=ibuts de chaque noeud -->
+<!ATTLIST etudiant 
+                code CDATA #REQUIRED
+                nom CDATA #REQUIRED
+                prenom CDATA #REQUIRED
+                age NMTOKEN #IMPLIED><!-- le nom de l attribut | #type(CDATA touts les types , NMTOKEN pas d espace ou de carattere speciaux,ID unique , ne commence pas par un chiffre)  | presence (REQUIRED , IMPLIED ( facultatif), FIXED) -->
+<!ATTLIST livre 
+                id NMTOKEN #REQUIRED
+                titre CDATA #REQUIRED
+                dateEmprut CDATA #REQUIRED
+                rendu (OUI|NON) "NON"> <!-- type enum  si le type est enum il faut une valeur par defaut  --> 
