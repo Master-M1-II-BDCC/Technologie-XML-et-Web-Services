@@ -1,0 +1,39 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Question 5</title>
+   </head>
+   <body>
+      <h3>une feuille de style XSL qui permet d’afficher au format HTML les opérations de type
+         CREDIT d’un relevé bancaire.
+         
+      </h3>
+      <p>----------------- Les opération de type crédit ------------------</p>
+      <table border="1" width="80%">
+         <tr>
+            <th>DATE</th>
+            <th>TYPE</th>
+            <th>MONTANT</th>
+            <th>DESCRIPTION</th>
+         </tr>
+         <tr>
+            <th>2025-01-01</th>
+            <th>CREDIT</th>
+            <th>5000</th>
+            <th>Virement salaire</th>
+         </tr>
+         <tr>
+            <th>2025-01-15</th>
+            <th>CREDIT</th>
+            <th>3000</th>
+            <th>Virement entreprise</th>
+         </tr>
+         <tr>
+            <th>2025-01-28</th>
+            <th>CREDIT</th>
+            <th>400</th>
+            <th>Remboursement assurance</th>
+         </tr>
+      </table>
+   </body>
+</html>
